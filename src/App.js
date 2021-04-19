@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/images/logo.svg';
+import './assets/css/App.css';
+
+// import new components
+import MyComponent from './components/MyComponent'; 
 
 function App() {
   let nombre = "Emmanuel Sánchez Luna";
@@ -13,6 +16,9 @@ function App() {
         </p>
         <p>
           {nombre} 
+          <section className="components">
+            <MyComponent></MyComponent>
+          </section>
         </p>
         <a
           className="App-link"
